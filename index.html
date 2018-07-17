@@ -5,36 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>David's Site</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="stlye.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
     <script src="main.js"></script>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="fullname">
-                <h1>Michael David Watson</h1>
+    <div class="container">
+        <header>
+            <nav class="head">
+                <div class="fullname">
+                    <h1>Michael David Watson</h1>
+                </div>
+                <ul>
+                    <li id="about"><a href="index.html">About</a></li> 
+                    <li id="portfolio"><a href="portfolio.html">Portfolio</a></li>
+                    <li id="contact"><a href="contact.html">Contact</a></li> 
+                </ul>
+            </nav>
+        </header>
+
+        <div class="body">
+            <div class="aboutinfo">
+                <h2>About Me</h2>
+                <hr>
+                <img src="assets/images/davidphoto.png" class="self" alt="Photo of David" width="150px" height="220px">
+                <p>
+                    Hello! My name is Michael David Watson, but I traditionally go by David. I am originally from Athens, AL, but moved to Colorado with my wife from Atlanta, GA in January, 2018. I am a part-time preacher at the church I attend. When not working, you can find me either hanging out with my wife at home or outdoors mountain biking, playing soccer, or being physically active in some way.
+                </p>
+
+                <p>
+                    My passion for coding developed over the course of the last year as I began my journey toward web development through UX Design. I took an online course at General Assembly, and since then, I have built my own portfolio and developed a passion for writing code. I took another online course through Udemy to learn the basics of HTML and CSS, as well as a little JavaScript. Now, I am fully committed to the development of my skills by completing the University of Denver's Coding Bootcamp and creating a new path for myself in the web development world.
+                </p>
             </div>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
+        </div>
+    
 
-    <div class="aboutinfo">
-        <h2>About Me</h2>
-        <img src="assets/images/davidphoto.png" alt="Photo of David" width="150px" height="220px">
-        <p>
-            Hello! My name is Michael David Watson, but I traditionally go by David. I am originally from Athens, AL. I moved to Colorado with my wife from Atlanta, GA in January, 2018. I am a Christian and part-time preacher at the church I attend. I love to mountain bike, play soccer, and just be physically active.
-        </p>
-
-        <p>
-            My passion for coding developed over the course of the last year as I began my interest in web development on the design side of things. I took an online course at General Assembly in UX Design. Since then, I began to build my own portfolio and in that process I developed a passion for writing code. I took another online course through Udemy to learn the basics of HTML and CSS, as well as a little JavaScript. Now, I am fully committed to the development of my skills by completing the University of Denver's Coding Bootcamp and creating a new path for myself in the web development world.
-        </p>
+        <footer>
+            <p>Copyright 2018</p>
+        </footer>
     </div>
-
-    <footer>
-        <p>Copyright 2018</p>
-    </footer>
 </body>
 </html>

@@ -5,43 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="main.js"></script>
 </head>
 
 <body>
-     <header>
-        <nav>
-             <div class="fullname">
-                 <h1>Michael David Watson</h1>
+    <div class="container">
+        <header>
+            <nav class="head">
+                <div class="fullname">
+                    <h1>Michael David Watson</h1>
+                </div>
+                <ul>
+                    <li id="about"><a href="index.html">About</a></li> 
+                    <li id="portfolio"><a href="portfolio.html">Portfolio</a></li>
+                    <li id="contact"><a href="contact.html">Contact</a></li> 
+                </ul>
+            </nav>
+        </header>
+
+        <div class="body">
+            <div class="portfoliomain">
+                <h2>Portfolio</h2>
+                <hr>
+                <div class="portfolio">
+                    
+                    <div class="polaroid">
+                        <a target="_blank" href="assets/images/bicycle-1839005_1280.jpg">
+                            <img src="assets/images/bicycle-1839005_1280.jpg" alt="photo of bicycle" width="300px" height="200px">
+                        </a>
+                        <div id="container">
+                            <p>Night Ride</p>
+                        </div>
+                    </div>
+
+                    <div class="polaroid">
+                        <a target="blank" href="assets/images/sam-hetterich-578690-unsplash.jpg">
+                            <img src="assets/images/sam-hetterich-578690-unsplash.jpg" alt="photo of nozzles" width="300px" height="200px">
+                        </a>
+                        <div id="container">
+                            <p>Distribution</p>
+                        </div>
+                    </div>
+
+                    <div class="polaroid">
+                        <a target="blank" href="assets/images/boy-1846704_1920.jpg">
+                            <img src="assets/images/boy-1846704_1920.jpg" alt="photo of boy" width="200px" height="225px">
+                        </a>
+                        <div id="container">
+                            <p>Hood</p>
+                        </div>
+                    </div>
+                        
+                    <div class="polaroid">
+                        <a target="_blank" href="assets/images/pexels-photo-345415.png">
+                            <img src="assets/images/pexels-photo-345415.png" alt="photo of shoes" width="300px" height="200px">
+                        </a>
+                        <div id="container">
+                            <p>Just Do It</p>
+                        </div>
+                    </div>
+                        
+                    <div class="polaroid">
+                        <a target="_blank" href="assets/images/piano-3505109_1920.jpg">
+                            <img src="assets/images/piano-3505109_1920.jpg" alt="selfie" width="300px" height="200px">
+                        </a>
+                        <div id="container">
+                            <p>Ivories</p>
+                        </div>
+                    </div> 
+
+                </div>
             </div>
-                <a href="#">About</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Contact</a>
-        </nav>
-    </header>
+        </div>
 
-    <div class="portfolio">
-        <a target="_blank" href="assets/images/bicycle-1839005_1280.jpg">
-            <img src="assets/images/bicycle-1839005_1280.jpg" alt="photo of bicycle" width="150px">
-        </a>
-        <a target="blank" href="assets/images/sam-hetterich-578690-unsplash.jpg">
-            <img src="assets/images/sam-hetterich-578690-unsplash.jpg" alt="photo of nozzles" width="150px">
-        </a>
-        <a target="blank" href="assets/images/boy-1846704_1920.jpg">
-            <img src="assets/images/boy-1846704_1920.jpg" alt="photo of boy" width="150px">
-        </a>
-        <a target="_blank" href="assets/images/pexels-photo-345415.png">
-            <img src="assets/images/pexels-photo-345415.png" alt="photo of shoes" width="150px">
-        </a>
-        <a target="_blank" href="assets/images/selfie.png">
-            <img src="assets/images/selfie.png" alt="selfie" width="150px">
-        </a>
+
+        <footer>
+            <p>Copyright 2018</p>
+        </footer>
     </div>
-
-
-    <footer>
-        <p>Copyright 2018</p>
-    </footer>
 </body>
 </html>
